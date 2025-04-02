@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>موقع عرض الأفلام</title>
+    <link rel="stylesheet" href="css/websitefilms.css">
+</head>
+<body>
+    <header>
+        <h1>موقع عرض الأفلام</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">الرئيسية</a></li>
+                <li><a href="#movies">الأفلام</a></li>
+                <li><a href="#contact">تواصل معنا</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home">
+            <h2>مرحبًا بكم في عالم الأفلام</h2>
+            <p>اكتشفوا أحدث الأفلام المميزة واستمتعوا بأفضل تجربة مشاهدة.</p>
+        </section>
+        <section id="movies">
+            <h2>قائمة الأفلام</h2>
+            <div class="movie-card">
+                <img src="imgs/egyp.jpeg" alt="فيلم 1">
+                <h3>فيلم أحمد جمال</h3>
+                <p>من أروع الأفلام المصرية التي يمكنك مشاهدتها</p>
+            </div>
+            <div class="movie-card">
+                <img src="imgs/ahmed.jpg" alt="فيلم 2">
+                <h3>فيلم أحمد</h3>
+                <p>يتحدث الفيلم عن أحمد الذي يحب الرعب  </p>
+            </div>
+            <div class="movie-card">
+                <img src="imgs/sea.jpg" alt="فيلم 3">
+                <h3>فيلم لوفي</h3>
+                <p>يتحدث الفيلم عن لوفي الذي أغرم في سها</p>
+            </div>
+        </section>
+        <section id="contact">
+            <h2>تواصل معنا</h2>
+            <form action="#" method="post">
+                <label for="name">الاسم:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">البريد الإلكتروني:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">رسالتك:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+                
+                <button type="submit">إرسال</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 جميع الحقوق محفوظة. موقع عرض الأفلام.</p>
+    </footer>
+</body>
+</html>

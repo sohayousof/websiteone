@@ -1,0 +1,142 @@
+/*
+Theme Name: HTML;
+Date: April 2025;
+Description: Learn Basic HTML5 and CSS;
+Version:1.0;
+Author: Hamza Ahmed;
+Author URL: site.alaqsa.edu.ps
+
+*/
+
+/*
+color: #e74c3c;
+color: #f58233;
+color: #999; /*رمادي*/
+
+*/
+
+body {
+    /*
+    background: radial-gradient(circle, black, white);
+    background: linear-gradient(black, white);
+    */   
+background: url("../imgs/bodybg2.jpg");
+color: #000305;
+font-size: 87%;
+font-family: Arial, 'Lucida Sans Unicode', sans-serif;
+line-height: 1.5;
+/* text-align: right;  */
+text-align: justify;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link, a:visited {
+    color: #e74c3c;
+}
+
+a:hover, a:active {
+    color: #f58233;
+}
+
+.body {
+    width: 70%;
+    margin: 10px auto;
+    clear: both;
+}
+
+.mainheader img {
+    width: 100%;
+ }
+
+/*-------------------------------Main Header----------------------*/
+.mainheader nav {
+    background-color: #e74c3c;
+    height: 40px;
+}
+
+.mainheader nav ul {
+    text-align: center;
+    list-style: none;
+    margin: 0 auto ;
+}
+
+.mainheader nav ul li {
+    display: inline;
+}
+
+.mainheader a:link, .mainheader a:visited {
+    color: white;
+    padding: 10px 40px;
+    display: inline-block;
+    height: 20px;
+}
+
+.mainheader a:hover, .mainheader a:active {
+color: white;
+background-color: #f58233;
+}
+
+/*-------------------------------Main Content----------------------*/
+ .mainContent {
+    width: 70%;
+    float: right;
+ }
+
+ .top-content {
+    background-color: #fff;
+    padding: 3%;
+    margin-top: 5px;
+ }
+
+ .post-info {
+    font-size: 90%;
+    color: #999;
+    font-style: italic;
+    margin-top: -20px;
+ }
+
+ .post-content
+{
+    display: block;
+ }
+ 
+ .post-img {
+  width: 100%;  
+ }
+
+/*------------------------------- SideBar ----------------------*/
+aside {
+    width: 24%;
+    margin: 2% 2% 0 0;
+    background-color: #fff;
+    float: left;
+    padding: 2%;
+}
+
+/*------------------------------- Footer ----------------------*/
+.footer 
+{
+   width: 100%;
+   background-color: #e74c3c;
+   float: right; 
+   margin-top: 20px;
+   height: 140px;
+}
+
+.footer p, .footer a
+{
+    color: white;
+    text-align: center;
+    width: 90%;
+}    
+
+/*------------------------------- figure ----------------------*/
+figure
+{
+    margin: 25px 0;
+    font-size: 80%;
+    color: #999;
+}
